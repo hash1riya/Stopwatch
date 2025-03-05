@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div class="stopwatch">
+      <!-- Title -->
+      <h1 class="title">Stopwatch</h1>
+      <!-- Display -->
+      <div class="display">
+        <span class="digit" id="hr">00</span>
+        <span class="sign">hr</span>
+        <span class="digit" id="min">00</span>
+        <span class="sign">min</span>
+        <span class="digit" id="sec">00</span>
+        <span class="sign">sec</span>
+        <span class="digit" id="count">00</span>
+      </div>
+      <!-- Button block -->
+      <div class="button-block">
+        <button onclick="Start()" id="start">Start</button>
+        <button onclick="Stop()" id="stop">Stop</button>
+        <button onclick="Reset()" id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
